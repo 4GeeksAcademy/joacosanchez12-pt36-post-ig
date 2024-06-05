@@ -1,0 +1,124 @@
+body{
+    background: white;
+    margin: 0;
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+}
+
+div.Container{
+    width:400px;
+    margin: auto;
+}
+
+div.post{
+    background: #191717;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+
+/* header orden */
+div.header-container{
+    display: flex;
+    background: #191717;
+}
+
+div.header-izquierda{
+    display: flex;
+    background: #191717;
+    flex-direction: row; 
+    
+}
+
+.texto-down {
+    display: flex;
+    flex-direction: column; 
+  }
+
+.boton-menu{
+    position: absolute;
+    right: 14.9cm;
+    background-color: transparent;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+.boton-menu:active{
+    color:aquamarine;
+}
+
+.profile-pic{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 0; 
+    color: white;
+    text-align: start;
+    margin-bottom: 1px;
+    margin-top: 6px;
+    
+  }
+  
+  h3 {
+    font-size: 20px; 
+    margin: 0; 
+    color: white;
+    text-align: start; 
+  }
+
+
+ 
+/* parte media */
+
+div.post img{
+    width:100%;
+    height: 280px;
+}
+
+/* parte baja */
+.Botones {
+    display: flex;
+    padding: 5px;
+  }
+  
+.boton-ig {
+    background-color: transparent;
+    border: none;
+    padding: 0 1px;
+    cursor: pointer;
+    
+  }
+  
+.boton-ig i {
+    font-family: FontAwesome;
+    font-size: 30px;
+    margin-right: 5px;
+    color: white;
+    border: 2px 
+  }
+
+.boton-ig i:active{
+    color: red;
+}
+
+.bookmark{
+    position: absolute;
+    right: 15.2cm;
+  }
+
+p {
+    text-align: left; 
+    margin-left: 0.3cm; 
+    color: white;
+    padding: 5px;
+}
+ 
